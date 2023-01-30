@@ -27,7 +27,7 @@ jobs:
       - name: maven version test
         run: mvn --version
       - name: git version test
-        run: git -version
+        run: git --version
            
       
       - name: python version test
